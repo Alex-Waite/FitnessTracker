@@ -24,7 +24,7 @@ const workoutSchema = new Schema({
             type: Number,
             required: "What weight are you working with?"
         },
-        time: {
+        duration: {
             type: Number,
             required: "How long did you go for?"
         }
