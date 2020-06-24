@@ -1,10 +1,10 @@
 const express = require("express")
-const router = require("router")
-const db = require("../models")
+const router = express.Router()
+const db = require("../models/workout")
 
 // c
 router.post("/api/workouts", function (req, res) {
-    db.Workout.create({
+    db.create({
         type: req.body.type,
         name: req.body.name,
         duration: req.body.duration,
@@ -19,7 +19,7 @@ router.post("/api/workouts", function (req, res) {
 
 // r
 router.get("/api/workouts", function (req, res) {
-    db.Workout.find({}).sort({
+    db.find({}).sort({
             day: 1
         }) // 1 = ascending, -1 = ascending for some reason
         .then(function (result) {

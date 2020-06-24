@@ -1,14 +1,13 @@
 ## Homework: Fitness Tracker
-This app uses mongo to allow users to track their daily exercises and 
+This app uses a mongo database to allow users to track their daily exercises and plan a weight loss program.
 
 ## Usage
-The usage is quite simple, the user must navigate to the above heroku link and then may interact with the site,
-Please note the delete, regurngetate and add button are all currently having issues
+The app is still in development and is not currently functional however once it is complete users will be able to add exercises to a database and add entries for specific exercised they have done
 
 ## How does it work?
-A link to the project on GitHub can be found [Here](https://github.com/Alex-Waite/BurgerMuncho)!<br>
-[Heroku link!](https://gentle-tor-23673.herokuapp.com/)
-![Screenshot of app](public/assets/img/screeny.png)
+A link to the project on GitHub can be found [Here](https://github.com/Alex-Waite/FitnessTracker)!<br>
+[Heroku link! (not currenly live)](https://dashboard.heroku.com/apps/cryptic-gorge-03077)
+
 
 ## Contact
 If you have any questions or would like to report any bugs you can contact me at alexanderconorwaite@gmail.com
